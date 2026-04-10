@@ -1,4 +1,4 @@
-# export_env README
+# README for `export_env`
 
 simple bash function to export .env, or any specified file.env.
 
