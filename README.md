@@ -19,10 +19,11 @@ _export_env custom.env
 
 
 ## Walkthrough
-before running script, source `export_env.sh`
+Showing functionality
 
-### test first
+### test first, baseline
 ```
+# should be empty - 
 echo $SOMEVAR
 
 python3 printest.py
@@ -57,7 +58,7 @@ _export_env comment.env
 ### now test again
 ...
 
-### More
+### Also note
 a variable can be in bash scope, but not environmental variable/session scope
 
 ```
